@@ -1,28 +1,27 @@
 body{
     background-color: rgb(255, 255, 255);
     margin-left: 5rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .title{
-    font-family: 'Made in Space', sans-serif;
-    color: rgb(0, 0, 0);
+    font-family: 'Encode Sans SC', sans-serif;
+    color: rgb(78, 92, 218);
     font-size: 5rem;
+    margin-left: 1rem;
 }
-
-.title2{
-    font-family: 'Made in Space', sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 5rem;
+.subtitle1{
+    font-family: 'Encode Sans SC', sans-serif;
+    color: rgb(0, 0, 0);  
+    display: inline-block;
+    margin-left: 6rem; 
 }
-
 .subtitle{
-    font-family: 'Powdah', sans-serif;
-    color: rgb(105, 84, 194);   
+    font-family: 'Encode Sans SC', sans-serif;
+    color: rgb(0, 0, 0);  
+    display: inline-block;
+    margin-left: 1rem; 
 }
-
-.subtitle2{
-    font-family: 'Powdah', sans-serif;
-    color: rgb(105, 84, 194);
-    font-size: 1px; 
+.linha1{
+    margin-left: 45rem;
 }
