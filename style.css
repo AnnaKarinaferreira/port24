@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.title{
+    font-family: 'Made in Space', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+}
+
+.title2{
+    font-family: 'Made in Space', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+}
+
+.subtitle{
+    font-family: 'Powdah', sans-serif;
+    color: rgb(105, 84, 194);   
+}
+
+.subtitle2{
+    font-family: 'Powdah', sans-serif;
+    color: rgb(105, 84, 194);
+    font-size: 1px; 
+}
