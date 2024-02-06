@@ -7,14 +7,14 @@ body{
 .title{
     font-family: 'Encode Sans SC', sans-serif;
     color: rgb(78, 92, 218);
-    font-size: 5rem;
+    font-size: 7rem;
     margin-left: 1rem;
 }
 .subtitle1{
     font-family: 'Encode Sans SC', sans-serif;
     color: rgb(0, 0, 0);  
     display: inline-block;
-    margin-left: 6rem; 
+    margin-left: 7rem; 
 }
 .subtitle{
     font-family: 'Encode Sans SC', sans-serif;
@@ -24,4 +24,8 @@ body{
 }
 .linha1{
     margin-left: 45rem;
+    margin-left: 70rem;
+}
+.button1 {
+    
 }
