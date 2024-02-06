@@ -21,11 +21,19 @@ body{
     color: rgb(0, 0, 0);  
     display: inline-block;
     margin-left: 1rem; 
+    margin-bottom: 8rem;
 }
 .linha1{
     margin-left: 45rem;
     margin-left: 70rem;
 }
-.button1 {
-    
+.button1{
+    background-color: rgb(78, 92, 218);
+    margin-left: 1rem; 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 1rem;
 }
+
