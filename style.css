@@ -93,7 +93,7 @@ header{
     margin-top: 2rem;
     padding-left: 2rem;
     padding-bottom: 4rem;
-    width: 40rem;
+    width: 50rem;
     text-decoration: transparent;
     height: 20rem;
     padding-top: 1px;
@@ -115,3 +115,9 @@ header{
 .letSpac1:hover{
     letter-spacing: 3px;
 }
+hr{
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+}
+
+
