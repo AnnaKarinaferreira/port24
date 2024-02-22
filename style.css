@@ -17,6 +17,7 @@ body{
     color: rgb(78, 92, 218);
     font-size: 4rem;   
     margin-top: 9rem;
+    margin-bottom: 100px;
     margin-left: 1rem;
     margin-right: 0px;
 }
@@ -29,6 +30,28 @@ p{
     font-family: 'Encode Sans SC', sans-serif;
     font-size: 18px;
     color: white;
+}
+.page1{
+    background-color: #ffffff;
+    margin-bottom: 12rem;
+}
+
+.page3{
+    background-color:rgb(78, 92, 218);
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    width: 50rem;
+    text-decoration: transparent;
+    height: 20rem;
+    padding-top: 1px;
+}
+.page4{
+    margin-left: 1rem;
+    margin-top: 10px;
+    text-decoration: transparent;
 }
 .subtitle1{
     font-family: 'Encode Sans SC', sans-serif;
@@ -196,23 +219,7 @@ header{
 }
 
 
-.page1{
-    background-color: #ffffff;
-    margin-bottom: 12rem;
-}
 
-.page3{
-    background-color:rgb(78, 92, 218);
-    border-radius: 1rem;
-    margin-left: 1rem;
-    margin-top: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 4rem;
-    width: 50rem;
-    text-decoration: transparent;
-    height: 20rem;
-    padding-top: 1px;
-}
 .letSpac{
     letter-spacing: 1rem;
     animation: ease-in-out;
