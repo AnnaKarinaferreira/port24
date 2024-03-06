@@ -5,7 +5,10 @@ body {
   margin-top: none;
   position: relative;
 }
-
+.img01{
+  width: 400px;
+  
+}
 section {
   width: 100%;
 }
@@ -35,6 +38,18 @@ p {
   font-size: 18px;
   color: white;
 }
+.frame {
+  background-color: rgb(78, 92, 218);
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-top: 6rem;
+  padding-left: 2rem;
+  padding-bottom: 6rem;
+  width: 50rem;
+  text-decoration: transparent;
+  height: 20rem;
+  padding-top: 1px;
+}
 .page1 {
   background-color: #ffffff;
   margin-bottom: 12rem;
@@ -52,18 +67,7 @@ p {
   margin-top: 10px;
   text-decoration: transparent;
 }
-.frame {
-  background-color: rgb(78, 92, 218);
-  border-radius: 1rem;
-  margin-left: 1rem;
-  margin-top: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 4rem;
-  width: 50rem;
-  text-decoration: transparent;
-  height: 20rem;
-  padding-top: 1px;
-}
+
 .subtitle1 {
   font-family: "Encode Sans SC", sans-serif;
   color: rgb(255, 255, 255);
@@ -86,7 +90,7 @@ p {
   font-family: "Encode Sans SC", sans-serif;
   color: rgb(255, 255, 255);
   display: inline-block;
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 5rem;
   margin-left: 1.4rem;
   margin-bottom: 1rem;
@@ -183,6 +187,7 @@ header div {
   background-color: rgb(78, 92, 218);
   transition-duration: 0.4s;
   font-size: 15px;
+  max-width: fit-content;
   border-style: none;
   margin-bottom: 3rem;
   margin-left: 1rem;
@@ -260,8 +265,4 @@ header div {
 }
 .letSpac1:hover {
   letter-spacing: 3px;
-}
-hr {
-  margin-bottom: 8rem;
-  margin-top: 8rem;
 }
