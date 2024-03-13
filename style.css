@@ -1,3 +1,4 @@
+/*corpo do site*/
 body {
   background-color: rgb(255, 255, 255);
   margin-left: 1rem;
@@ -5,7 +6,7 @@ body {
   margin-top: none;
   position: relative;
 }
-
+/*feito para ajudar na responsividade do site*/
 section {
   width: 100%;
 }
@@ -69,36 +70,36 @@ p {
   text-decoration: transparent;
 }
 
-.subtitle1 {
+.subtitle2 {
   font-family: "Encode Sans SC", sans-serif;
   color: rgb(255, 255, 255);
   display: inline-block;
-  text-decoration: none;
-  margin-top: 1px;
-  margin-left: 5rem;
-  margin-bottom: 4rem;
+  font-size: 25px;
+  margin-top: 3rem;
+  margin-left: 1.4rem;
+  margin-bottom: 5rem;
 }
-
-.subtitle2 {
+/*palavras do header, da linha1 (linkdln, github e netlify)*/
+.subtitle {
   font-family: "Encode Sans SC", sans-serif;
   color: rgb(0, 0, 0);
   display: inline-block;
-  font-size: 15px;
-  margin-top: 1rem;
+  font-size: 25px;
+  margin-top: 3rem;
   margin-left: 1.4rem;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
-
-.subtitle {
+.subtitle1 {
+  text-decoration: transparent;
   font-family: "Encode Sans SC", sans-serif;
   color: rgb(255, 255, 255);
   display: inline-block;
   font-size: 35px;
-  margin-top: 5rem;
-  margin-left: 1.4rem;
-  margin-bottom: 1rem;
+  margin-top: 0.1rem;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
 }
-
+/*header em que fica os links para as redes (linkdln, github e netlify)*/
 header {
   background-color: rgb(78, 92, 218);
   padding-left: 5rem;
@@ -108,20 +109,20 @@ header {
   padding-top: 1rem;
   border-radius: 5px;
 }
-
+/*header de inicio*/
 header div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+/*linha do header do inicio da pagina*/
 .linha1 {
   display: flex;
   flex-direction: row;
   justify-content: end;
   margin-right: 2rem;
 }
-
+/*botoes dos portfolios passados*/
 .button1 {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
@@ -147,7 +148,7 @@ header div {
   color: white;
 }
 
-.button {
+#button {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
   transition-duration: 0.4s;
@@ -164,14 +165,14 @@ header div {
   color: whitesmoke;
 }
 
-.button:hover {
+#button:hover {
   background-color: #87b9e2;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
 }
 
-.button3 {
+#button3 {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
   transition-duration: 0.4s;
@@ -188,14 +189,14 @@ header div {
   color: whitesmoke;
 }
 
-.button3:hover {
+#button3:hover {
   background-color: #0968b6;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
 }
 
-.button4 {
+#button4 {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
   transition-duration: 0.4s;
@@ -213,14 +214,14 @@ header div {
   color: whitesmoke;
 }
 
-.button4:hover {
+#button4:hover {
   background-color: #9b2424;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
 }
 
-.button5 {
+#button5 {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
   transition-duration: 0.4s;
@@ -237,14 +238,14 @@ header div {
   color: whitesmoke;
 }
 
-.button5:hover {
+#button5:hover {
   background-color: #712b86;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
 }
 
-.button6 {
+#button6 {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
   transition-duration: 0.4s;
@@ -261,7 +262,7 @@ header div {
   color: whitesmoke;
 }
 
-.button6:hover {
+#button6:hover {
   background-color: #206e15;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
