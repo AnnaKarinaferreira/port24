@@ -289,3 +289,10 @@ header div {
 .letSpac1:hover {
   letter-spacing: 3px;
 }
+
+.img01{
+  width: 18rem;
+  position: absolute;
+  right: 5vw;
+  top: 9rem;
+}
