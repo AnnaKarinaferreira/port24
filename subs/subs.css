@@ -1,57 +1,84 @@
 /*corpo do site*/
 body {
-    background-color: rgb(255, 255, 255);
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: none;
-    position: relative;
-  }
-  /*feito pra ajudar a manter a responsividade do site*/
-  section {
-    width: 100%;
-  }
-  /* inicio da class do cabeçalho da página (linkdln github e netlify) */
-  .subtitle1 {
-    font-family: "Encode Sans SC", sans-serif;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 1px;
-    margin-left: 5rem;
-    margin-bottom: 4rem;
-  }
-  /*linha roxa em que fica os links da class acima*/
-  header {
-    background-color: rgb(78, 92, 218);
-    padding-left: 5rem;
-    width: auto;
-    text-decoration: transparent;
-    height: 2rem;
-    padding-top: 1rem;
-    border-radius: 5px;
-  }
-  /*div feita para responsividade do header*/
-  header div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  /*div feita pros 3 links das redes sociais pedidas (linkdln, github e netlify)*/
-  .linha1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin-right: 2rem;
-  }
-  /* efeito de espaçamento ao passar o mouse nas palavras do header*/
-  .letSpac1 {
-    letter-spacing: 0.1rem;
-    animation: ease-in-out;
-    transition: 1s;
-    font-size: 1rem;
-  }
-  /* efeito de espaçamento ao passar o mouse nas palavras do header*/
-  .letSpac1:hover {
-    letter-spacing: 3px;
-  }
-  
+  background-color: rgb(255, 255, 255);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: none;
+  position: relative;
+}
+/*feito pra ajudar a manter a responsividade do site*/
+section {
+  width: 100%;
+}
+/* inicio da class do cabeçalho da página (linkdln github e netlify) */
+.subtitle1 {
+  font-family: "Encode Sans SC", sans-serif;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 1px;
+  margin-left: 5rem;
+  margin-bottom: 4rem;
+}
+/*linha roxa em que fica os links da class acima*/
+.header1 {
+  background-color: rgb(55, 102, 67);
+  padding-left: 5rem;
+  width: auto;
+  text-decoration: transparent;
+  height: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+}
+/*div feita para responsividade do header*/
+.header1 div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*div feita pros 3 links das redes sociais pedidas (linkdln, github e netlify)*/
+.linha1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 2rem;
+}
+/* efeito de espaçamento ao passar o mouse nas palavras do header*/
+.letSpac1 {
+  letter-spacing: 0.1rem;
+  animation: ease-in-out;
+  transition: 1s;
+  font-size: 1rem;
+}
+/* efeito de espaçamento ao passar o mouse nas palavras do header*/
+.letSpac1:hover {
+  letter-spacing: 3px;
+}
+.img01{
+  width: 30vw;
+  position: absolute;
+  right: 10vw;
+  top: 9rem;
+}
+/*corpo do site*/
+body {
+background-color: rgb(255, 255, 255);
+margin-left: 1rem;
+margin-right: 1rem;
+margin-top: none;
+position: relative;
+}
+/*feito para ajudar na responsividade do site*/
+section {
+width: 100%;
+}
+
+.title1 {
+font-family: "Encode Sans SC", sans-serif;
+color: rgb(55, 102, 67);
+font-size: 6rem;
+margin-top: 7rem;
+margin-left: 6px;
+margin-right: 0px;
+margin-bottom: 3rem;
+}

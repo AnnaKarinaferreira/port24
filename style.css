@@ -45,7 +45,7 @@ p {
   margin-top: 6rem;
   padding-left: 2rem;
   padding-bottom: 6rem;
-  width: 50rem;
+  width: 100rem;
   text-decoration: transparent;
   height: 20rem;
   padding-top: 1px;
@@ -74,10 +74,10 @@ p {
   font-family: "Encode Sans SC", sans-serif;
   color: rgb(255, 255, 255);
   display: inline-block;
-  font-size: 25px;
-  margin-top: 3rem;
-  margin-left: 1.4rem;
-  margin-bottom: 5rem;
+  font-size: 3vw;
+  margin-top: 3vw;
+  margin-left: 1vw;
+  margin-bottom: 3vw;
 }
 /*palavras do header, da linha1 (linkdln, github e netlify)*/
 .subtitle {
@@ -175,16 +175,18 @@ header div {
 #button3 {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
+  width: 15vw;
   transition-duration: 0.4s;
-  font-size: 15px;
+  font-size: 1vw;
+  margin-right: 3vw;
   border-style: none;
-  margin-bottom: 3rem;
-  margin-left: 1rem;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-radius: 1rem;
+  margin-bottom: 2vw;
+  margin-left: 1vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  border-radius: 1vw;
   text-decoration: #87b9e2;
   color: whitesmoke;
 }
@@ -200,20 +202,21 @@ header div {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
   transition-duration: 0.4s;
-  font-size: 15px;
-  max-width: fit-content;
+  width: 15vw;
+  transition-duration: 0.4s;
+  font-size: 1vw;
+  margin-right: 3vw;
   border-style: none;
-  margin-bottom: 3rem;
-  margin-left: 1rem;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-radius: 1rem;
+  margin-bottom: 2vw;
+  margin-left: 1vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  border-radius: 1vw;
   text-decoration: #87b9e2;
   color: whitesmoke;
 }
-
 #button4:hover {
   background-color: #9b2424;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
@@ -225,15 +228,18 @@ header div {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
   transition-duration: 0.4s;
-  font-size: 15px;
+  width: 15vw;
+  transition-duration: 0.4s;
+  font-size: 1vw;
   border-style: none;
-  margin-bottom: 3rem;
-  margin-left: 1rem;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-radius: 1rem;
+  margin-bottom: 2vw;
+  margin-right: 3vw;
+  margin-left: 1vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  border-radius: 1vw;
   text-decoration: #87b9e2;
   color: whitesmoke;
 }
@@ -249,15 +255,18 @@ header div {
   font-family: "Encode Sans SC", sans-serif;
   background-color: rgb(78, 92, 218);
   transition-duration: 0.4s;
-  font-size: 15px;
+  width: 15vw;
+  transition-duration: 0.4s;
+  font-size: 1vw;
   border-style: none;
-  margin-bottom: 3rem;
-  margin-left: 1rem;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-radius: 1rem;
+  margin-bottom: 2vw;
+  margin-right: 3vw;
+  margin-left: 1vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  border-radius: 1vw;
   text-decoration: #87b9e2;
   color: whitesmoke;
 }
@@ -291,8 +300,8 @@ header div {
 }
 
 .img01{
-  width: 18rem;
+  width: 30vw;
   position: absolute;
-  right: 5vw;
+  right: 10vw;
   top: 9rem;
 }
