@@ -3,7 +3,7 @@ var button3 = document.getElementById("button3");
 // Adicionando  clique ao botão
 button3.addEventListener("click", function () {
   // Redirecionando
-  window.location.href = "/subs/matematica.html";
+  window.location.href = "/subs/mtm.html";
 });
 
 // Referenciando o botão pelo ID

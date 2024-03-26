@@ -72,7 +72,7 @@ position: relative;
 section {
 width: 100%;
 }
-
+/*divs de natureza*/
 .title1 {
 font-family: "Encode Sans SC", sans-serif;
 color: rgb(55, 102, 67);
@@ -82,3 +82,80 @@ margin-left: 6px;
 margin-right: 0px;
 margin-bottom: 3rem;
 }
+
+/*divs de matematica*/
+.title2 {
+  font-family: "Encode Sans SC", sans-serif;
+  color: #0968b6;
+  font-size: 6rem;
+  margin-top: 7rem;
+  margin-left: 6px;
+  margin-right: 0px;
+  margin-bottom: 3rem;
+}
+/*linha roxa em que fica os links da class acima*/
+.header1 {
+  background-color: #0968b6;
+  padding-left: 5rem;
+  width: auto;
+  text-decoration: transparent;
+  height: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+}
+
+/*titulo de humanas*/
+.title3 {
+  font-family: "Encode Sans SC", sans-serif;
+  color: #a76427;
+  font-size: 6rem;
+  margin-top: 7rem;
+  margin-left: 6px;
+  margin-right: 0px;
+  margin-bottom: 3rem;
+  }
+.header1 {
+  background-color: #a76427;
+  padding-left: 5rem;
+  width: auto;
+  text-decoration: transparent;
+  height: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+  }
+/*titulo de linguagens*/
+.title4 {
+  font-family: "Encode Sans SC", sans-serif;
+  color: #9b2424;
+  font-size: 6rem;
+  margin-top: 7rem;
+  margin-left: 6px;
+  margin-right: 0px;
+  margin-bottom: 3rem;
+  }
+.header1 {
+  background-color: #a76427;
+  padding-left: 5rem;
+  width: auto;
+  text-decoration: transparent;
+  height: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+  }
+  
+  
+
+.img02{
+  width: 25vw;
+  position: absolute;
+  right: 10vw;
+  border-radius: 20vw;
+  top: 9rem;
+  transition: all 0.3s ease-in-out;
+}
+.img02:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+

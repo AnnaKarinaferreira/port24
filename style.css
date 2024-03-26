@@ -13,17 +13,17 @@ section {
 
 .title {
   font-family: "Encode Sans SC", sans-serif;
-  color: rgb(78, 92, 218);
-  font-size: 11rem;
+  color: #776B5D;
+  font-size: 9vw;
   margin-top: 7rem;
-  margin-left: 6px;
+  margin-left: 10px;
   margin-right: 0px;
   margin-bottom: 3rem;
 }
 
 .title2 {
   font-family: "Encode Sans SC", sans-serif;
-  color: rgb(78, 92, 218);
+  color: #776B5D;
   font-size: 4rem;
   margin-top: 9rem;
   margin-bottom: 100px;
@@ -39,7 +39,7 @@ p {
 }
 
 .frame {
-  background-color: rgb(78, 92, 218);
+  background-color: #B0A695;
   border-radius: 1rem;
   margin-left: 1rem;
   margin-top: 6rem;
@@ -84,9 +84,9 @@ p {
   font-family: "Encode Sans SC", sans-serif;
   color: rgb(0, 0, 0);
   display: inline-block;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 3rem;
-  margin-left: 1.4rem;
+  margin-left: 2rem;
   margin-bottom: 5rem;
 }
 .subtitle1 {
@@ -101,7 +101,7 @@ p {
 }
 /*header em que fica os links para as redes (linkdln, github e netlify)*/
 header {
-  background-color: rgb(78, 92, 218);
+  background-color: #B0A695;
   padding-left: 5rem;
   width: auto;
   text-decoration: transparent;
@@ -117,6 +117,7 @@ header div {
 }
 /*linha do header do inicio da pagina*/
 .linha1 {
+  background-color: #B0A695;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -125,24 +126,24 @@ header div {
 /*botoes dos portfolios passados*/
 .button1 {
   font-family: "Encode Sans SC", sans-serif;
-  background-color: rgb(78, 92, 218);
+  background-color: #B0A695;
   transition-duration: 0.4s;
   font-size: 1.1vw;
   margin: 1rem;
   max-width: fit-content;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-  border-radius: 1rem;
-  text-decoration: #87b9e2;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  border-radius: 2vw;
+  text-decoration: #B0A695;
   color: whitesmoke;
   outline: none;
   border: none;
 }
 
 .button1:hover {
-  background-color: #87b9e2;
+  background-color: #776B5D;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
@@ -150,7 +151,7 @@ header div {
 
 #button {
   font-family: "Encode Sans SC", sans-serif;
-  background-color: rgb(78, 92, 218);
+  background-color: #B0A695;
   transition-duration: 0.4s;
   font-size: 15px;
   border-style: none;
@@ -166,7 +167,7 @@ header div {
 }
 
 #button:hover {
-  background-color: #87b9e2;
+  background-color: #776B5D;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
@@ -174,7 +175,7 @@ header div {
 
 #button3 {
   font-family: "Encode Sans SC", sans-serif;
-  background-color: rgb(78, 92, 218);
+  background-color: #B0A695;
   width: 15vw;
   transition-duration: 0.4s;
   font-size: 1vw;
@@ -200,7 +201,7 @@ header div {
 
 #button4 {
   font-family: "Encode Sans SC", sans-serif;
-  background-color: rgb(78, 92, 218);
+  background-color: #B0A695;
   transition-duration: 0.4s;
   width: 15vw;
   transition-duration: 0.4s;
@@ -226,7 +227,7 @@ header div {
 
 #button5 {
   font-family: "Encode Sans SC", sans-serif;
-  background-color: rgb(78, 92, 218);
+  background-color: #B0A695;
   transition-duration: 0.4s;
   width: 15vw;
   transition-duration: 0.4s;
@@ -245,7 +246,7 @@ header div {
 }
 
 #button5:hover {
-  background-color: #712b86;
+  background-color: #a76427;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
@@ -253,7 +254,7 @@ header div {
 
 #button6 {
   font-family: "Encode Sans SC", sans-serif;
-  background-color: rgb(78, 92, 218);
+  background-color: #B0A695;
   transition-duration: 0.4s;
   width: 15vw;
   transition-duration: 0.4s;
@@ -299,9 +300,16 @@ header div {
   letter-spacing: 3px;
 }
 
-.img05{
+.img01{
   width: 25vw;
   position: absolute;
   right: 10vw;
+  border-radius: 20vw;
   top: 9rem;
+  transition: all 0.3s ease-in-out;
+}
+.img01:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
