@@ -31,26 +31,7 @@ section {
   margin-right: 0px;
 }
 
-p {
-  margin-left: 1rem;
-  font-family: "Encode Sans SC", sans-serif;
-  font-size: 18px;
-  color: white;
-}
 
-.frame {
-  background-color: #B0A695;
-  border-radius: 1rem;
-  margin-left: 1rem;
-  margin-top: 6rem;
-  padding-left: 4rem;
-  padding-right: 9rem;
-  padding-bottom: 9rem;
-  width: 50rem;
-  text-decoration: transparent;
-  height: 20rem;
-  padding-top: 1px;
-}
 
 .page1 {
   background-color: #ffffff;
@@ -73,12 +54,18 @@ p {
 
 .subtitle2 {
   font-family: "Encode Sans SC", sans-serif;
-  color: rgb(255, 255, 255);
+  color: black;
   display: inline-block;
   font-size: 3vw;
   margin-top: 3vw;
   margin-left: 1vw;
   margin-bottom: 3vw;
+}
+p{
+  font-family: "Encode Sans SC", sans-serif;
+  color: black;
+  font-size: larger;
+  margin-left:3vw;
 }
 /*palavras do header, da linha1 (linkdln, github e netlify)*/
 .subtitle {
@@ -217,8 +204,8 @@ header div {
   padding-top: 1vw;
   padding-bottom: 1vw;
   border-radius: 1vw;
-  text-decoration: #87b9e2;
   color: whitesmoke;
+  text-decoration: #87b9e2;
 }
 #button4:hover {
   background-color: #9b2424;
@@ -257,18 +244,18 @@ header div {
 #button6 {
   font-family: "Encode Sans SC", sans-serif;
   background-color: #B0A695;
-  transition-duration: 0.4s;
-  width: 15vw;
+  width: 14vw;
+  height: 7vw;
   transition-duration: 0.4s;
   font-size: 1vw;
+  margin-right: 3vw;
   border-style: none;
   margin-bottom: 2vw;
-  margin-right: 3vw;
   margin-left: 1vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top: 5vw;
-  padding-bottom: 5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
   border-radius: 1vw;
   text-decoration: #87b9e2;
   color: whitesmoke;
