@@ -10,3 +10,150 @@ body {
 section {
   width: 100%;
 }
+
+/*                     PAGINA DA AREA DE MATEMATICA                   */
+.title1{
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 9vw;
+  margin-bottom: 50px;
+  color: #AAD7D9;
+}
+.header1 {
+  background-color: #92C7CF;
+  padding-left: 65rem;
+  width: auto;
+  text-decoration: transparent;
+  height: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+}
+/*header de inicio*/
+.header1 div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+/*                     PAGINA DA AREA DE LINGUAGENS                 */
+.title2{
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 9vw;
+  margin-bottom: 50px;
+  color: #FED9ED;
+}
+.header2 {
+  background-color: #E7BCDE;
+  padding-left: 65rem;
+  width: auto;
+  text-decoration: transparent;
+  height: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+}
+/*header de inicio*/
+.header2 div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*                     PAGINA DA AREA DE HUMANAS                 */
+.b3{
+  background-color: #F7DED0;
+}
+.title3{
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 9vw;
+  margin-bottom: 50px;
+  color: #FFBE98;
+}
+.header3 {
+  background-color: #ddac90;
+  padding-left: 65rem;
+  width: auto;
+  text-decoration: transparent;
+  height: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+}
+/*header de inicio*/
+.header3 div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.interface{
+  background-color: #F7DED0;
+}
+.page4{
+  background-color: #F7DED0;
+}
+
+
+/*                     PAGINA DA AREA DE NATUREZA                */
+.b1{
+  background-color: #D2E3C8;
+}
+.title4{
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 9vw;
+  margin-bottom: 50px;
+  color: #4F6F52;
+}
+.header4 {
+  background-color: #739072;
+  padding-left: 65rem;
+  width: auto;
+  text-decoration: transparent;
+  height: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+}
+/*header de inicio*/
+.header4 div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.interface{
+  background-color: #D2E3C8;
+}
+.page4{
+  background-color: #D2E3C8;
+}
+
+
+/* AQUI FICA AS DIVS GERAIS(QUE USO EM TODAS AS SUBPAGINAS)*/
+.subtitle {
+  font-family: "Encode Sans SC", sans-serif;
+  text-decoration: transparent;
+  margin-right: 25px;
+  color: aliceblue;
+  font-size: 20px;
+}
+.letSpac {
+  letter-spacing: 0.1rem;
+  animation: ease-in-out;
+  transition: 1s;
+  font-size: 1rem;
+}
+
+.letSpac:hover {
+  letter-spacing: 3px;
+}
+/* subtitulo abaixo dos nomes das areas*/
+.subtitle1{
+  font-family: "Encode Sans SC", sans-serif;
+  margin-left: 1vw;
+  color: rgb(255, 255, 255);
+}
+.letSpac1 {
+  letter-spacing: 0.1rem;
+  animation: ease-in-out;
+  transition: 1s;
+  font-size: 2rem;
+}
+.letSpac1:hover {
+  letter-spacing: 4px;
+}

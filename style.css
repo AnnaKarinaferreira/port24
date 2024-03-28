@@ -56,9 +56,9 @@ section {
   font-family: "Encode Sans SC", sans-serif;
   color: black;
   display: inline-block;
-  font-size: 3vw;
+  font-size: 6vw;
   margin-top: 3vw;
-  margin-left: 1vw;
+  margin-left: 3vw;
   margin-bottom: 3vw;
 }
 p{
@@ -182,7 +182,7 @@ header div {
 }
 
 #button3:hover {
-  background-color: #0968b6;
+  background-color: #92C7CF;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
@@ -208,7 +208,7 @@ header div {
   text-decoration: #87b9e2;
 }
 #button4:hover {
-  background-color: #9b2424;
+  background-color: #E7BCDE;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
@@ -235,7 +235,7 @@ header div {
 }
 
 #button5:hover {
-  background-color: #a76427;
+  background-color: #F7DED0;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
@@ -262,7 +262,7 @@ header div {
 }
 
 #button6:hover {
-  background-color: #206e15;
+  background-color: #739072;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
   color: white;
