@@ -29,3 +29,9 @@ button6.addEventListener("click", function () {
   // Redirecionando
   window.location.href = "/subs/natureza.html";
 });
+
+/*BOTOES DA AREA DE NATUREZA*/
+var button7 = document.getElementById("button7");
+button7.addEventListener("click", function (){
+  window.location.href = "/subs/natureza.html";
+});

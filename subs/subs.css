@@ -36,7 +36,7 @@ section {
 }
 .header1 {
   background-color: #92C7CF;
-  padding-left: 73vw;
+  padding-left: 71vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;
@@ -50,7 +50,7 @@ section {
   margin-bottom: 2vw;
   margin-top: 2vw;
   border-color: transparent;
-  background-color: #AAD7D9;
+  background-color: #dadada;
   border-radius: 1vw;
 }
 /*header de inicio*/
@@ -63,17 +63,17 @@ section {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.7s;
   width: 20%;
-  border-radius: 25px;
+  border-radius: 30px;
 }
 .card1:hover {
   box-shadow: 20px 20px 25px 0 rgba(0,0,0,0.2);
 }
-.img02 {
-  border-radius: 10px 10px 0 0;
+.img04 {
+  border-radius: 25px 25px 0 0;
 }
 .container1 {
   padding: 2px 16px;
-  margin-bottom: 4vw;
+  margin-bottom: 2vw;
 }
 
 /*                     PAGINA DA AREA DE LINGUAGENS                 */
@@ -85,7 +85,7 @@ section {
 }
 .header2 {
   background-color: #E7BCDE;
-  padding-left: 73vw;
+  padding-left: 71vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;
@@ -123,7 +123,7 @@ section {
 }
 .header3 {
   background-color: #ddac90;
-  padding-left: 73vw;
+  padding-left: 71vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;
@@ -131,13 +131,13 @@ section {
   border-radius: 5px;
 }
 .button3{
-  margin-left: 2vw;
-  width: 10vw;
-  height: 2vw;
-  margin-bottom: 2vw;
+  margin-left: 1vw;
+  width: 14vw;
+  height: 3vw;
+  margin-bottom: 1rem;
   margin-top: 2vw;
   border-color: transparent;
-  background-color: #FFBE98;
+  background-color: #dadada;
   border-radius: 1vw;
 }
 /*header de inicio*/
@@ -158,18 +158,32 @@ section {
 .card3 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.7s;
+  display: inline-block;
   width: 20%;
   border-radius: 25px;
+  margin-right: 4vw;
 }
 .card3:hover {
   box-shadow: 20px 20px 25px 0 rgba(0,0,0,0.2);
 }
+.img02 {
+  height: 28vw;
+  width: 20vw;
+  border-radius: 30px 30px 0 0;
+}
 .img03 {
-  border-radius: 10px 10px 0 0;
+  height: 26vw;
+  width: 20vw;
+  border-radius: 30px 30px 0 0;
+}
+.img05{
+  height: 26vw;
+  width: 20vw;
+  border-radius: 30px 30px 0 0;
 }
 .container3 {
-  padding: 2px 16px;
-  margin-bottom: 4vw;
+  padding: 1px 10px;
+  margin-bottom: 2vw;
 }
 
 /*                     PAGINA DA AREA DE NATUREZA                */
@@ -177,6 +191,49 @@ section {
   background-color: #f8f8f8;
   
 }
+/*botao dos trimestres*/
+#button7, 
+#button8,
+#button9 {
+  font-family: "Encode Sans SC", sans-serif;
+  background-color: #739072;
+  transition-duration: 0.4s;
+  font-size: 1.1vw;
+  margin: 1rem;
+  max-width: fit-content;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  border-radius: 1vw;
+  text-decoration: #B0A695;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+}
+#button7:hover, 
+#button8:hover,
+#button9:hover {
+  background-color: #96a096;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(255, 255, 255, 0.19);
+  color: white;
+}
+.img06{
+  width: 35vw;
+  position: absolute;
+  right: 2vw;
+  border-radius: 20vw;
+  top: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.img06:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.0);
+}
+
+
 
 .title4 {
   font-family: "Encode Sans SC", sans-serif;
@@ -187,7 +244,7 @@ section {
 
 .header4 {
   background-color: #739072;
-  padding-left: 73vw;
+  padding-left: 71vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;
@@ -236,7 +293,7 @@ section {
   font-family: "Encode Sans SC", sans-serif;
   margin-left: 1vw;
   margin-top: 5vw;
-  margin-bottom: 10vw;
+  margin-bottom: 5vw;
   position: static;
   color: rgb(100, 100, 100);
 }
@@ -252,7 +309,8 @@ section {
   letter-spacing: 4px;
 }
 .titlemid{
-  font-size: 5vw;
+  font-size: 6vw;
+  margin-bottom: 6vw;
   font-family: "Encode Sans SC", sans-serif;
   color: rgb(100, 100, 100);
 }
