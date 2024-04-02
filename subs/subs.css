@@ -130,7 +130,7 @@ section {
   padding-top: 1rem;
   border-radius: 5px;
 }
-.button3{
+.button1{
   margin-left: 1vw;
   width: 14vw;
   height: 3vw;
@@ -188,13 +188,19 @@ section {
 
 /*                     PAGINA DA AREA DE NATUREZA                */
 .b1 {
-  background-color: #f8f8f8;
+  background-color: white;
   
 }
+/*texto contido no botao dos trimestres*/
+.subtitletri{
+  text-decoration: transparent;
+  color: white;
+  font-size: 1rem;
+}
 /*botao dos trimestres*/
-#button7, 
-#button8,
-#button9 {
+.button7, 
+.button8,
+.button9 {
   font-family: "Encode Sans SC", sans-serif;
   background-color: #739072;
   transition-duration: 0.4s;
@@ -211,9 +217,9 @@ section {
   outline: none;
   border: none;
 }
-#button7:hover, 
-#button8:hover,
-#button9:hover {
+.button7:hover, 
+.button8:hover,
+.button9:hover {
   background-color: #96a096;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);
@@ -232,8 +238,6 @@ section {
   transform: scale(1.1);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.0);
 }
-
-
 
 .title4 {
   font-family: "Encode Sans SC", sans-serif;
@@ -259,12 +263,12 @@ section {
   flex-wrap: wrap;
 }
 
-.interface {
-  background-color: #ffffff;
+.interface4 {
+  background-color: white;
 }
 
 .page4 {
-  background-color: #ffffff;
+  background-color:transparent;
 }
 
 
