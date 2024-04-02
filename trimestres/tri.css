@@ -6,9 +6,11 @@ body {
   margin-top: none;
   position: relative;
 }
+
 .interface4 {
   background-color: transparent;
 }
+
 .header1 {
   background-color: #739072;
   padding-left: 71vw;
@@ -18,6 +20,7 @@ body {
   padding-top: 1rem;
   border-radius: 5px;
 }
+
 .title1 {
   font-family: "Encode Sans SC", sans-serif;
   font-size: 5vw;
@@ -25,6 +28,7 @@ body {
   margin-bottom: 50px;
   color: #4f6f52;
 }
+
 .subtitle1 {
   font-family: "Encode Sans SC", sans-serif;
   text-decoration: transparent;
@@ -33,29 +37,35 @@ body {
   color: rgb(86, 86, 87);
   font-size: 30px;
 }
+
 /*header de inicio*/
 .header1 div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .box {
   display: inline-block;
 }
+
 .img01 {
   height: 21vw;
   width: 20vw;
   border-radius: 30px 30px 0 0;
 }
+
 .img02 {
-    height: 20vw;
-    width: 20vw;
-    border-radius: 30px 30px 0 0;
-  }
+  height: 20vw;
+  width: 20vw;
+  border-radius: 30px 30px 0 0;
+}
+
 .container1 {
   padding: 2px 16px;
   margin-bottom: 2vw;
 }
+
 .titlecard1 {
   font-family: "Encode Sans SC", sans-serif;
   color: #202727;
@@ -66,6 +76,7 @@ body {
   font-size: 13px;
   text-decoration: none;
 }
+
 .subtitle {
   font-family: "Encode Sans SC", sans-serif;
   text-decoration: transparent;
@@ -73,6 +84,7 @@ body {
   color: aliceblue;
   font-size: 20px;
 }
+
 .card1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.7s;
@@ -83,15 +95,18 @@ body {
   border-radius: 25px;
   margin-right: 4vw;
 }
+
 .card1:hover {
   box-shadow: 20px 20px 25px 0 rgba(0, 0, 0, 0.2);
 }
+
 .letSpac {
   letter-spacing: 0.1rem;
   animation: ease-in-out;
   transition: 1s;
   font-size: 1rem;
 }
+
 .button1 {
   margin-left: 1vw;
   width: 14vw;
@@ -103,4 +118,23 @@ body {
   background-color: #dadada;
   border-radius: 1vw;
 }
-/*primeiro trimestre de */
+.img09{
+  width: 35vw;
+  position: absolute;
+  right: 2vw;
+  border-radius: 20vw;
+  top: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.img09:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.0);
+}
+.aviso{
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 3vw;
+  margin-left: 1vw;
+  margin-bottom: 50px;
+  color: #4f6f52;
+}
