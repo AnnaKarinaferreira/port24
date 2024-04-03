@@ -1,0 +1,76 @@
+/*corpo do site*/
+body {
+    background-color: rgb(255, 255, 255);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: none;
+    position: relative;
+}
+
+.interface4 {
+    background-color: transparent;
+}
+
+.header1 {
+    background-color: #7895CB;
+    padding-left: 71vw;
+    width: auto;
+    text-decoration: transparent;
+    height: 2rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+}
+
+.subtitle {
+    font-family: "Encode Sans SC", sans-serif;
+    text-decoration: transparent;
+    margin-right: 40px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.letSpac {
+    letter-spacing: 0.1rem;
+    animation: ease-in-out;
+    transition: 1s;
+    font-size: 1rem;
+}
+
+.letSpac:hover {
+    letter-spacing: 3px;
+}
+
+.title1 {
+    font-family: "Encode Sans SC", sans-serif;
+    font-size: 7vw;
+    margin-bottom: 8vw;
+    position: static;
+    color: #4A55A2;
+}
+
+.buttons {
+    font-family: "Encode Sans SC", sans-serif;
+    background-color: #A0BFE0;
+    width: 15vw;
+    height: 8vw;
+    transition-duration: 0.4s;
+    font-size: 1vw;
+    margin-right: 3vw;
+    border-style: none;
+    margin-bottom: 3vw;
+    margin-left: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+    text-decoration: #87b9e2;
+    color: whitesmoke;
+}
+
+.buttons:hover {
+    background-color: #7895CB;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(255, 255, 255, 0.19);
+    color: white;
+}
