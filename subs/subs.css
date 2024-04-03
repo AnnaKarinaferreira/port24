@@ -149,7 +149,10 @@ section {
   border-radius: 5px;
 }
 
-.button1 {
+#vermais1,
+#vermais2,
+#vermais3,
+#vermais4 {
   margin-left: 1vw;
   width: 14vw;
   height: 3vw;
@@ -225,9 +228,9 @@ section {
 }
 
 /*botao dos trimestres*/
-.button7,
-.button8,
-.button9 {
+#button1,
+#button2,
+#button3 {
   font-family: "Encode Sans SC", sans-serif;
   background-color: #739072;
   transition-duration: 0.4s;
@@ -245,9 +248,9 @@ section {
   border: none;
 }
 
-.button7:hover,
-.button8:hover,
-.button9:hover {
+#button1:hover,
+#button2:hover,
+#button3:hover {
   background-color: #96a096;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(255, 255, 255, 0.19);

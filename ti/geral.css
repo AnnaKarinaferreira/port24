@@ -48,7 +48,10 @@ body {
     color: #4A55A2;
 }
 
-.buttons {
+#button8,
+#button9,
+#button10,
+#button11 {
     font-family: "Encode Sans SC", sans-serif;
     background-color: #A0BFE0;
     width: 15vw;
@@ -68,7 +71,10 @@ body {
     color: whitesmoke;
 }
 
-.buttons:hover {
+#button8:hover,
+#button9:hover,
+#button10:hover,
+#button11:hover {
     background-color: #7895CB;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
         0 17px 50px 0 rgba(255, 255, 255, 0.19);
