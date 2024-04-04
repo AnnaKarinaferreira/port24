@@ -41,7 +41,7 @@ section {
 
 .header1 {
   background-color: #92C7CF;
-  padding-left: 71vw;
+  padding-left: 65vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;
@@ -98,12 +98,26 @@ section {
 
 .header2 {
   background-color: #E7BCDE;
-  padding-left: 71vw;
+  padding-left: 65vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;
   padding-top: 1rem;
   border-radius: 5px;
+}
+.img15 {
+  width: 25vw;
+  position: absolute;
+  right: 2vw;
+  border-radius: 20vw;
+  top: 15vw;
+  transition: all 0.3s ease-in-out;
+}
+
+.img15:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.0);
 }
 
 /*header de inicio*/
@@ -170,7 +184,7 @@ section {
 
 .header3 {
   background-color: #ddac90;
-  padding-left: 71vw;
+  padding-left: 65vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;
@@ -179,7 +193,7 @@ section {
 }
 
 #vermais {
-  margin-left: 5vw;
+  margin-left: 4vw;
   width: 14vw;
   height: 3vw;
   margin-bottom: 1rem;
@@ -330,12 +344,12 @@ section {
   font-family: "Encode Sans SC", sans-serif;
   font-size: 9vw;
   margin-bottom: 50px;
-  color: #4F6F52;
+  color: #FB9AD1;
 }
 
 .header4 {
   background-color: #739072;
-  padding-left: 71vw;
+  padding-left: 65vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;

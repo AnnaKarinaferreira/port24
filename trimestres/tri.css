@@ -13,22 +13,58 @@ body {
 
 .header1 {
   background-color: #739072;
-  padding-left: 71vw;
+  padding-left: 65vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;
   padding-top: 1rem;
   border-radius: 5px;
 }
-
+/*header de inicio*/
+.header1 div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.header2 {
+  background-color: #E7BCDE;
+  padding-left: 65vw;
+  width: auto;
+  text-decoration: transparent;
+  height: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+}
+/*header de inicio*/
+.header2 div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .title1 {
   font-family: "Encode Sans SC", sans-serif;
   font-size: 5vw;
   margin-left: 1vw;
-  margin-bottom: 50px;
-  color: #4f6f52;
+  margin-top: 10vw;
+  margin-bottom: 7vw;
+  color: #E7BCDE;
 }
-
+.title2 {
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 9vw;
+  margin-bottom: 65px;
+  color: #FB9AD1;
+}
+#vermais {
+  margin-left: 4vw;
+  width: 14vw;
+  height: 3vw;
+  margin-bottom: 1rem;
+  margin-top: 2vw;
+  border-color: transparent;
+  background-color: #dadada;
+  border-radius: 1vw;
+}
 .subtitle1 {
   font-family: "Encode Sans SC", sans-serif;
   text-decoration: transparent;
@@ -49,14 +85,10 @@ body {
   display: inline-block;
 }
 
-.img01 {
-  height: 21vw;
-  width: 20vw;
-  border-radius: 30px 30px 0 0;
-}
-
+.img01,
+.img16,
 .img02 {
-  height: 20vw;
+  height: 21vw;
   width: 20vw;
   border-radius: 30px 30px 0 0;
 }
@@ -82,7 +114,7 @@ body {
   text-decoration: transparent;
   margin-right: 40px;
   color: aliceblue;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .card1 {

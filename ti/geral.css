@@ -7,19 +7,25 @@ body {
     position: relative;
 }
 
-.interface4 {
+.interface1 {
     background-color: transparent;
 }
 
 .header1 {
-    background-color: #7895CB;
-    padding-left: 71vw;
+    font-family: "Encode Sans SC", sans-serif;
+    color: rgb(0, 0, 0);
+    padding-left: 65vw;
     width: auto;
     text-decoration: transparent;
     height: 2rem;
     padding-top: 1rem;
     border-radius: 5px;
 }
+.header1 div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
 .container1 {
     padding: 2px 16px;
