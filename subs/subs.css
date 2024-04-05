@@ -34,14 +34,14 @@ section {
 
 .title1 {
   font-family: "Encode Sans SC", sans-serif;
-  font-size: 9vw;
+  font-size: 10vw;
   margin-bottom: 50px;
   color: #AAD7D9;
 }
 
 .header1 {
   background-color: #92C7CF;
-  padding-left: 65vw;
+  padding-left: 60vw;
   width: auto;
   text-decoration: transparent;
   height: 2rem;
@@ -197,7 +197,7 @@ section {
 }
 
 #vermais {
-  margin-left: 4vw;
+  margin-left: 1vw;
   width: 14vw;
   height: 3vw;
   margin-bottom: 1rem;
@@ -384,7 +384,7 @@ section {
 .subtitle {
   font-family: "Encode Sans SC", sans-serif;
   text-decoration: transparent;
-  margin-right: 40px;
+  margin-right: 1vw;
   padding-left: 2vw;
   color: white;
   font-size: 20px;
