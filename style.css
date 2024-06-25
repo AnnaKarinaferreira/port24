@@ -54,7 +54,7 @@ section {
 
 .subtitle2 {
   font-family: "Encode Sans SC", sans-serif;
-  color: black;
+  color: #776B5D;
   display: inline-block;
   font-size: 6vw;
   margin-top: 3vw;
@@ -93,9 +93,9 @@ header {
   padding-left: 65vw;
   width: auto;
   text-decoration: transparent;
-  height: 2rem;
+  height: 4rem;
   padding-top: 1rem;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 /*header de inicio*/
 header div {
@@ -109,7 +109,7 @@ header div {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  margin-right: 2rem;
+  margin-right: 4rem;
 }
 /*botoes dos portfolios passados*/
 .button1 {
@@ -128,6 +128,10 @@ header div {
   color: whitesmoke;
   outline: none;
   border: none;
+}
+/* Aqui fica  a div do About me, que é o texto que fala sobre mim obviamente*/
+.aboutme{
+  font-size: 3vh;
 }
 
 .button1:hover {
